@@ -1,2 +1,1 @@
-# nodeschool
-lessons for nodeschool
+CV v1.0.0
