@@ -1,4 +1,10 @@
+.main-container {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
 .section {
+  /*max-width: 1276px;*/
+  margin: 0 auto;
   width: 100%;
   display: flex;
 }
@@ -10,11 +16,19 @@
 .section__header {
   width: 30%;
   height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 3rem;
 }
 
 .section__content {
   width: 70%;
   height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 3rem;
 }
 
 .section__header {
@@ -28,11 +42,31 @@
 .section:nth-child(even) .section__header {
   background: #292A2A;
 }
+
 .section:nth-child(even) .section__content {
   background: #2B2C2C;
 }
+
 .avatar__img {
   border-radius: 50%;
+  max-width: 15rem;
+  width: 100%;
+}
+
+.fio_name {
+  font-size: 5rem;
+  font-weight: 300;
+  color: #a4a5a6;;
+}
+.fio_surname {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #e0a80d;
+}
+
+.fio_desc {
+  font-size: 1.5rem;
+  color: #979899;;
 }
 
 @charset "UTF-8";
